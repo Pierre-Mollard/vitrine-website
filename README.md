@@ -62,13 +62,13 @@ To deploy the site on GitHub Pages:
 
 Make sure you've committed and pushed all changes to the repository.
 
-Build the project for production. The dist/ folder is now ready for deployment. Push this folder to the gh-pages branch of your GitHub repository using a tool like gh-pages:
+Build the project for production. The dist/ folder is now ready for deployment. 
 
    ```sh
    npm run build
-   npm install --save-dev gh-pages
    ```
 
+Push this folder to the gh-pages branch of your GitHub repository using a tool like gh-pages:
 Deploy the site:
 
    ```sh
