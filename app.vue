@@ -4,7 +4,9 @@
       <header>
         <ul>
           <li>
-            <NuxtLink to="/">Home</NuxtLink>
+            <NuxtLink to="/">
+              <IconsHome></IconsHome> Home
+            </NuxtLink>
             <NuxtLink to="/check-it">Check-It</NuxtLink>
             <NuxtLink to="/francoquiz">FrancoQuiz</NuxtLink>
           </li>
