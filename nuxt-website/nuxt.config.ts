@@ -14,4 +14,7 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/vitrine-website/", // ❌ This is needed for GitHub Pages but NOT for a custom domain, TODO: replace "/vitrine-website/" with "/"
   },
+  vite: {
+    base: '/nuxt-website/',
+  },
 })

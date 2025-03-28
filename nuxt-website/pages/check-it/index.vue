@@ -1,3 +1,5 @@
 <template>
-    <div>todo check it</div>
+    <div>
+        <TextDocument />
+    </div>
 </template>
