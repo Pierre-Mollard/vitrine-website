@@ -1,3 +1,4 @@
+import { defineNuxtConfig } from "nuxt/config";
 import { resolve } from "path";
 
 export default defineNuxtConfig({
@@ -8,13 +9,16 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
-  tailwindcss: {
-    viewer: false
-  },
   app: {
-    baseURL: "/vitrine-website/", // ❌ This is needed for GitHub Pages but NOT for a custom domain, TODO: replace "/vitrine-website/" with "/"
+    baseURL: "/", // ❌ This is needed for GitHub Pages but NOT for a custom domain, TODO: replace "/vitrine-website/" with "/"
   },
   vite: {
-    base: '/nuxt-website/',
+    base: '/',
   },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  }
 })
