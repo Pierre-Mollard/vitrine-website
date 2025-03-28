@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="min-h-screen flex items-center justify-center bg-blue-500 text-white text-3xl font-bold">
+    Tailwind is working! 🎉
+  </div>
 </template>
